@@ -5,7 +5,7 @@ import argparse
 from sqlalchemy import create_engine
 
 
-dbname="ECSN_portugal_T10_DB"
+dbname=""
 user="postgres"
 password="12345"
 host='localhost'
