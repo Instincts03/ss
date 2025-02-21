@@ -4,11 +4,6 @@ from sqlalchemy import create_engine
 import pandas as pd
 # from update import get_records_from_sheet
 
-dbname="ECSN_portugal_T10_DB"
-user="postgres"
-password="12345"
-host='localhost'
-port="5432"
 
 engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{dbname}')
 
