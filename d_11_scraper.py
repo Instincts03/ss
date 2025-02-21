@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 def getSchedule():
-        engine = create_engine("postgresql+psycopg2://postgres:12345@localhost/ECSN_T10_DB")
+        engine = create_engine("")
 
         df = pd.read_sql("SELECT * FROM schedule;", engine)
         return df
